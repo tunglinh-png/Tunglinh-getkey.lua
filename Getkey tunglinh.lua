@@ -1,7 +1,7 @@
 --[[ 
     GET KEY TUNG LINH - CYBERPUNK EDITION
     LINK GET KEY: https://link4m.net/y3RwQ6Jb
-    KEY: HTK.RonixKeySjgtg28dj338fffe58xrggjrgg
+    KEY: FREE_TunglinhDepTraikoaiso1thegioi
 ]]
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -65,9 +65,9 @@ UIStroke.Thickness = 2
 UIStroke.Color = Color3.fromRGB(187, 134, 252) -- #bb86fc (Tím pastel)
 UIStroke.Transparency = 0.3
 
--- Tiêu đề Menu "survive Fox Name"
+-- Tiêu đề Menu "Blox Fruits Tung Linh"
 Title.Parent = MainFrame
-Title.Text = "SURVIVE TUNG LINH"
+Title.Text = "BLOX FRUITS TUNG LINH"
 Title.Font = Enum.Font.GothamBlack
 Title.TextColor3 = Color3.fromRGB(0, 240, 255) -- #00f0ff (Xanh cyan nổi bật)
 Title.TextSize = 22
@@ -136,14 +136,14 @@ CopyBtn.MouseButton1Click:Connect(function()
 end)
 
 SubmitBtn.MouseButton1Click:Connect(function()
-    if KeyInput.Text == "HTK.RonixKeySjgtg28dj338fffe58xrggjrgg" then
+    if KeyInput.Text == "FREE_TunglinhDepTraikoaiso1thegioi" then
         SubmitBtn.Text = "XÁC MINH THÀNH CÔNG!"
         SubmitBtn.BackgroundColor3 = Color3.fromRGB(0, 255, 127) -- Đổi sang xanh lá khi đúng key
         SubmitBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
         task.wait(1)
         ScreenGui:Destroy()
         -- Khởi động script Tung Linh khi nhập đúng mã
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Survive-Zombie-Arena-Foxname-instant-kill-and-auto-play-etc-keyless-218156"))()
+        loadstring(game:HttpGet(" https://raw.githubusercontent.com/longhihilonghihi-hub/Devs-LongHiHiV2/refs/heads/main/MainV2.txt"))()
     else
         SubmitBtn.Text = "SAI KEY! VUI LÒNG NHẬP LẠI"
         SubmitBtn.BackgroundColor3 = Color3.fromRGB(255, 80, 80) -- Đổi sang đỏ khi sai key
